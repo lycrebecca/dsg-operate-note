@@ -1,0 +1,47 @@
+---
+title: "DSG 各流程說明"
+author: "Rebecca Lo 羅云禎"
+date: "`r Sys.Date()`"
+output:
+  bookdown::gitbook:
+    self_contained: true
+    split_by: none
+    lib_dir: "assets"
+  bookdown::html_document2:
+    toc: true
+    toc_float: true
+    toc_depth: 2
+  bookdown::pdf_book:
+    latex_engine: xelatex
+    citation_package: natbib
+    keep_tex: yes
+  bookdown::word_document2: default
+fontsize: 12pt
+geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
+header-includes:
+  - \usepackage{xeCJK}
+  - \setCJKmainfont{Microsoft JhengHei}
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyfoot[C]{\small \thepage}
+  - \renewcommand{\headrulewidth}{0pt}
+  - \fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0pt}}
+documentclass: book
+bibliography:
+- book.bib
+- packages.bib
+description: |
+  This is a handbook of DSG Operate Notes.
+  Please ensure that you follow the latest rules instead of only referring to this handbook since information may be updated over time.
+link-citations: false
+site: bookdown::bookdown_site
+---
+
+# About
+
+包含各種 DSG 日常作業會用到的東西。各類作業及資訊將分為不同章節說明。
+
+因資訊時有更新，請以最新流程為主。此份說明僅供參考，請多方查證以確保作業正確性。
+
+---

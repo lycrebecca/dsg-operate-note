@@ -1,0 +1,21 @@
+`r if (knitr::is_html_output()) '
+# References {-}
+'`
+
+- [***`P:\BU2_Dram\Public\新人訊資料`***]{style="color: red;"}
+
+- [***`P:\BU2_Dram\Public\DRAM Training`***]{style="color: red;"}
+
+- [***`P:\BU2_Dram\Public\Rebecca`***]{style="color: red;"}
+
+- [***`P:\BU2_Dram\Protected\packaging SOP`***]{style="color:red;"}
+
+- [***`P:\BU2_Dram\Protected\Data Sheet`***]{style="color:red;"}
+
+- [***`P:\BU2_Dram\Protected\PN decoder`***]{style="color:red;"}
+
+- [***`P:\BU2_Dram\Protected\Training Material and Testing Document`***]{style="color:red;"}
+
+- [***`P:\R&D Engineering\Testing\Protected\# Formal (DVT) Test Report #\DRAM`***]{style="color:red;"}
+
+- [***`K:\Engineering1\Public\DVT Test`***]{style="color:red;"}

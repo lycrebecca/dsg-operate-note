@@ -1,0 +1,20 @@
+# [Salesforce](https://atpinc.lightning.force.com/lightning/page/home){target="_blank"}使用 {#sfdc-other}
+
+## OEM PN Request
+
+- 料號新增請見 **建立新料號 -- Salesforce** [\@ref(sfdc)]
+
+- Customer Code 可參考[***`P:\BU1_Embedded\Protected\Customer code list.xlsx`***]{style="color:red;"}
+
+  - 若有新增 Customer Code 需求，需告知 NSG Peichen Tung, Cathy Huang 客戶名稱、欲編代碼、所屬區域，由其協助加入對照表。
+  
+    - 需確認欲編代碼沒被用過 (可在 Salesforce 以該代碼模糊查詢)
+    
+
+---
+
+## 出貨紀錄查詢
+
+![](images/sfdc-shipdata.png)
+
+---

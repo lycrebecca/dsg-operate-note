@@ -1,0 +1,71 @@
+# 先備資訊 {#basicinfo}
+
+大部分的資訊都可以參考這裡的內容:
+
+```{r, include=FALSE}
+### 不知為啥一直沒辦法插入連結, 所以擺爛放路徑，再請你們自己複製貼上 ˊ_>ˋ
+```
+
+[***`P:\BU2_Dram\Public`***]{style="color: red;"}
+
+## 產品面 {#productside}
+
+[***`P:\\BU2_Dram\\Public\\DRAM Training`***]{style="color: red;"}
+
+---
+
+## 流程 & 架構 {#flow-structure}
+
+[***`P:\BU2_Dram\Public\新人訊資料`***]{style="color: red;"}
+
+---
+
+## 表單 {#form}
+
+[***`P:\BU2_Dram\Public\Rebecca`***]{style="color: red;"}
+
+### 可參考處 {#reference}
+
+> **參考現有料號**
+
+-   TipTop(TT)/ SAP
+
+-   Salesforce
+
+> **參考舊有申請單填寫方式**
+
+(須注意 testing level 等資訊陸續有修改，請多方查詢)
+
+-   [`P:\BU2_Dram\Public\Rebecca\excel\料號建立紀錄.xlsx`]{style="color: red;"}
+
+---
+
+## 系統/ 網頁疑問 {#inquiry}
+
+-   Salesforce: **Martin Yeh**
+
+-   PLM, Pricebook: **Ryan Chiou**
+
+-   BPM: **Kimi Chen**
+
+---
+
+## 系統同步 {#sync}
+
+> **每天 12:00, 18:00, 22:00 資料會從雲端回寫到地端。**
+
+-   料號約需 4 hrs
+
+-   BOM 約 2 hrs
+
+-   Salesforce 每一小時與 BPM 同步一次
+
+---
+
+## 料號流程 {#flow}
+
+詳情請見[***建立新料號***](#pn-setup)
+
+[Salesforce](#sfdc) → [PLM](#PLM) → [BPM-物料申請](#bpm-pn) → [BPM-BOM申請](#bpm-bom) → [BPM-預設製程(Routing)](#bpm-routing) → [BPM-SPD Code申請](#bpm-spd) → [EIP-PRN (Product Release Notice)](#prn)
+
+---
